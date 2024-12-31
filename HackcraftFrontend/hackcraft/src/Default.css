@@ -1,0 +1,224 @@
+.default{
+    width: 100%;
+    height: fit-content;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+}
+
+.default .default-nav-links{
+    display: flex;
+    gap: 1rem;
+}
+
+.default .default-nav-links a{
+    text-decoration: none;
+    color: black;
+}
+
+.intro{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E2CCFF;
+    width: 90%; 
+    height: 80%;
+    border-radius: 2rem;
+}
+.hackathon-name{
+    font-size: 3rem;
+}
+input::placeholder{
+    text-align: center;
+}
+.date::placeholder{
+    text-align: center;
+}
+.additional-info{
+    display: flex;
+    gap: 2rem;
+}
+input{
+    background: none;
+    border: none;
+}
+.additional-info div,.additional-info input {
+    width: 8rem;
+    padding: 1rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    position: relative;
+    bottom: 2rem;
+}
+.rounds{
+    height: 90vh;
+    width: 100%;
+}
+.round-item{
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    height: fit-content;
+    border: 1px solid black;
+}
+.rounds-main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+.all-rounds{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.round-description{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description-container{
+    width: 80%;
+    height: 70%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+}
+.hackathon-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+}
+.hackathon-description button{
+    width: 15%;
+    padding: 1rem;
+    border-radius: 2rem;
+    background: none;
+    position: relative;
+    top: 1.5rem;
+    background-color: white;
+    cursor: pointer;
+}
+.hackathon-description-container{
+    border: 2px solid black;
+    padding: 2rem 1rem;
+    height: 80%;
+    border-radius: 2rem;
+    text-align: center;
+    width: 100%;
+}
+.winner{
+    width: 80%;
+    height: fit-content;
+    background-color: #E2CCFF;
+}
+.winner-large-header,.winner-small-header{
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 0.3rem;
+    border-radius: 0.4rem;
+}
+.gallery{
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    flex-direction: column;
+    gap: 1rem;
+}
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    width: 100%;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.gallery h1, .gallery p{
+    padding: 0 1rem;
+}
+.photos div{
+    height: 15rem;
+    width: 20rem;
+    background-color: #E2CCFF;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 100%;
+    padding: 1rem 2rem;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+.contacts-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 1rem;
+}
+.contacts-container .contact{
+    display: flex;
+    flex-direction: column;
+}
+.member{
+    font-weight: bold;
+}
+.contact-header{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.Logo input{
+    width: 10rem;
+}
+.plus{
+    font-size: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+.editor-panel{
+    display: flex;
+}
+.sidebar{
+    width: 20%;
+    border: 1px black solid;
+}
+.default-form{
+    padding: 0 5rem;
+}
+.default-page{
+    padding: 0 5rem;
+}
